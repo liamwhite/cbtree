@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "node-lmdb": "^0.9.4",
     "roaring": "^1.0.6"
   },
   "devDependencies": {
