@@ -14,6 +14,6 @@ export default function quickSelect<T>(results: RoaringBitmap32, cardinality: ui
     // All of these results are distinct
     return results.select(pivotIndex);
   } else {
-    return quickSelect(leftResults, cardinality, sortField, sortDocVals);
+    return quickSelect<T>(leftResults, cardinality, sortField, sortDocVals);
   }
 }
